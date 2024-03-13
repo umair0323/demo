@@ -1,0 +1,168 @@
+#header{
+	background: #e74c3c;
+	color: white;
+}
+#logo{
+	font-size: 30px;
+}
+#menu{
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 60%;
+
+
+}
+a{
+	text-decoration: none;
+}
+#menu li{
+	padding: 10px;
+
+}
+#menu li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+
+}
+#menu li a:hover{
+	background: #c0392b;
+}
+#banner{
+	background-image: url('E:/image/grass.jpg');
+	background-size:cover ;
+}
+.banner-title{
+	padding-top: 50px;
+}
+.banner-title h1{
+	background: rgba(255, 255, 255, 255.8);
+	padding: 10px;
+	margin: 0;
+	display: inline-block;
+
+}
+.banner-title p{
+	background: rgba(231, 76, 60,.8);
+	color: white;
+	padding: 10px;
+}
+.service-box{
+	text-align: center;
+}
+.service-box i.fa{
+	color: #e74c3c;
+	font-size: 70px;
+	margin-bottom: 15px;
+}
+.section{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.section h2.section-head{
+	color: black;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.section h2.section-head:after{
+	background: #e74c3c;
+	content: "";
+	display: block;
+	width: 100px;
+	height: 4px;
+	margin: 20px auto;
+}
+#testimonial{
+	color: white;
+	background: #21618C ;
+	padding: 50px 0;
+	position: relative;
+}
+#testimonial:before{
+	
+	content: "";
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+
+
+}
+
+#testimonial img{
+	border-radius: 20px;
+}
+.src{
+	width: 250px;
+	height: 150px;
+	border-radius: 12px;
+}
+.newz-post img{
+	width: 100%;
+	margin-bottom: 10px;
+
+}
+.newz-post h3{
+	font-size: 1.35rem;
+
+}
+.newz-post a{
+	color:#e74c3c ;
+}
+.post-date{
+	font-size: 13px;
+}
+.post-date:before{
+
+}
+#footer{
+	background: #34495e;
+	color: white;
+	padding: 20px 0;
+}
+.footer-widegt h4:after{
+	content: "";
+	display: block;
+	width: 50px;
+	height: 2px;
+	background: white;
+}
+.footer-widegt a{
+	color: white;
+}
+.Latest-Newz{
+	list-style: none;
+}
+.Latest-Newz li{margin-bottom: 3px;
+
+
+}
+#main-footer{
+	background: #2c3e50;
+	color: white;
+	padding: 10px 0;
+}
+#sosial{
+	list-style: none;
+	color: white;
+}
+#sosial li{
+	display: inline-block;
+	padding-left: 5px;
+
+}
+#sosial li a{
+	color: white;
+	font-size: 20px;
+
+
+}
+@media (max-width:768){
+	#menu{
+		text-align: center;
+	}
+}
+
